@@ -1,0 +1,206 @@
+
+h3 {
+    font-size: 13px;
+    color:#92690f;
+    
+}
+button {
+    color: #FFFFFF;
+    background-color: #ddc976;
+    border: thin solid #000000;
+}
+
+.aba_botao {    
+    background:url(../imagesnfe/aba.gif) no-repeat;
+    border:white;
+}
+.aba_botao_selecionado {
+    background:url(../imagesnfe/aba_selecionada.gif) no-repeat;
+    border:white;
+}
+
+.relatorio_linhas_titulo {
+    background-color:#f3edd0
+}
+
+.relatorio_linhas_produto {
+    background-color:#f3edFF
+}
+input {
+    font-family: "Trebuchet MS", Arial;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+    font-variant: normal;
+    border: 1px solid #999999;
+}
+textarea {
+    font-family: "Trebuchet MS", Arial;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #999999;
+}
+select {
+    font-family: "Trebuchet MS", Arial;
+    font-size: 10px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #999999;
+}
+
+
+label {
+    color: #000000;
+    font-size:11px;
+    font-style: normal;
+    font-variant: normal;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+msg {
+    color: #800000;
+    font-size:11px;
+    font-style: normal;
+    font-variant: normal;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#form1 .button {
+    color: #FFFFFF;
+    background-color: #009966;
+}
+a {
+    color: #92690f;
+    font-size:11px;
+}
+a:link {
+    text-decoration: none;
+    color: #92690f;
+    font-size:11px;
+}
+a:visited {
+    text-decoration: none;
+    color: #92690f;
+    font-size:11px;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ddc976;
+    font-size:11px;
+}
+a:active {
+    text-decoration: none;
+    color: #ddc976;
+    font-size:11px;
+}
+
+
+.tabela {
+    display: table;
+    width: 100%;
+}
+th, .titulo {
+    text-align:left;
+    font-size:11px;
+    color:#000000;
+}
+.list-header {
+    background-color: #eeeeee;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.list-paging-header {
+    background-color: white;
+}
+
+.list-paging-footer {
+    background-color: white;
+}
+
+.list-row-even {
+    background-color: #FF0000;
+}
+
+.list-row-odd { 
+    background-color: #0000FF;
+}
+
+.even {
+    background-color: #ddc976;
+}
+
+.odd {
+    background-color: #FFFFFF;
+}
+
+/* Style rules for message severity levels  #FFAACC*/
+
+.infoMessage {
+    color: black;
+}
+
+.warnMessage {
+    color: orange;
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.fatalMessage {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pagebanner, .pagelinks {
+    color:#000000;
+    font-size:10;
+}
+.calendario{
+    color:black;
+    background-color: #ccccFF;    
+}
+.agenda_titulo {
+    color: #336699; 
+    font-weight: bold;  
+    background-color: #ccccFF;    
+    font-size:12;
+}
+.agenda_hoje {
+    color: #336699; 
+    font-weight: bold;  
+    background-color: #ccccFF;        
+}
+.agenda_sessao_marcada {
+    color: #336699; 
+    font-weight: bold;  
+    background-color: FFff00;        
+}
+.linha1 {
+    display: table-row;
+    margin: 1px;
+    border-bottom-color: #00FF33;
+    background-color: #FFFFFF;
+}
+.linha2 {
+    display: table-row;
+    margin: 1px;
+    border-bottom-color: #00FF33;
+    background-color: fafafa;
+}

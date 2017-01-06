@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/maratanfe">
+  <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="5" maxIdle="0" maxWait="-1" name="jdbc/easyportalds" password="portalusr" type="javax.sql.DataSource" url="jdbc:oracle:thin:@//192.168.1.26:1521/logix.grupojav.com.br" username="usr_portal"/>
+  <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="5" maxIdle="0" maxWait="-1" name="jdbc/maratads" password="gjav" type="javax.sql.DataSource" url="jdbc:oracle:thin:@//192.168.1.26:1521/logix.grupojav.com.br" username="gjav"/>
+</Context>

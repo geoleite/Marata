@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/marataweb">
+  <!--Resource auth="Container"
+              driverClassName="org.postgresql.Driver"
+              type="javax.sql.DataSource"
+              maxActive="100"
+              maxIdle="0"
+              maxWait="-1"
+              name="jdbc/easynfe"
+              url="jdbc:postgresql://banco.nfeinbox.com.br:5432/mcconsultoriae"
+              username="nfeinbox"
+              password="mc190174"
+
+              />
+    <Resource auth="Container"
+              driverClassName="org.postgresql.Driver"
+              type="javax.sql.DataSource"
+              maxActive="10"
+              maxIdle="0"
+              maxWait="-1"
+              name="jdbc/easyportalds"
+              url="jdbc:postgresql://banco.nfeinbox.com.br:5432/mcconsultoriae"
+              username="nfeinbox"
+              password="mc190174"
+
+              /-->
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="100" maxIdle="0" maxWait="-1" name="jdbc/easynfe" password="postgres" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/mcconsultoriae" username="postgres"/>
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="10" maxIdle="0" maxWait="-1" name="jdbc/easyportalds" password="postgres" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/mcconsultoriae" username="postgres"/>
+</Context>

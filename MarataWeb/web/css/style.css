@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    /*background:url(../images/bg1.jpg) no-repeat;*/
+    background-attachment:fixed;
+    background-repeat: repeat-x;
+    color:#000098;
+    background:#F0F0F0;
+}
+
+.style1 {color: #000098}
+
+.topo{
+    margin:0px;
+    wsidth:974px;
+    height:117px;
+    background:url(../images/topo.jpg) no-repeat;
+}
+.container{
+    width:974px;
+    margin:0 auto;
+    background:url(../images/lateral.jpg) repeat-y;
+    
+}
+.menu{
+    width:974px;
+    height:42px;
+    vertical-align:middle;
+    background-image: url(../images/menu.jpg);
+}
+
+.conteudo{
+    width:974px;
+    background:url(../images/lateral.jpg) repeat-y;
+    margin:0px;
+}
+
+.rodape{
+    width:974px;
+    height:70px;
+    background:url(../images/rodape.jpg) no-repeat;
+    margin:0;
+}
+
+.space_texto{
+    width:610px;
+    height:auto;
+    margin-top:20px;
+    position:relative;
+    text-align:justify;
+    left: 0;
+}
+
+.space_1{
+    width:313px;
+    height:159px;
+    margin-top:20px;
+    position:relative;
+    
+}
+
+.space_2{
+    width:313px;
+    height:159px;
+    margin-top:20px;
+    position:relative;
+    
+}
+
+.space_3{
+    width:313px;
+    height:159px;
+    margin-top:20px;
+    position:relative;
+    
+}
+
+.space_topo{
+    text-color:#000000;
+    width:315px;
+    height:17px;
+    background:url(../images/space_topo.jpg) no-repeat;
+    margin-left:0px;
+    margin-top:0px;
+    position:relative;
+}
+
+.space_corpo{
+    width:315px;
+    height:126px;
+    background:url(../images/space_corpo.jpg) repeat-y;
+}
+.space_rodape{
+    width:315px;
+    height:17px;
+    background:url(../images/space_rodape.jpg) no-repeat;
+}
+

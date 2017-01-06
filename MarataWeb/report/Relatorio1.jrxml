@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<queryString>
+		<![CDATA[select * from easynfe.not_nota]]>
+	</queryString>
+	<field name="emp_nr_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_nr_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_bt_arquivo" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_tx_identificador" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_tx_tipo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_tx_cnpjcliente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_dt_emissao" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dis_nr_id" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_tx_numero" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="not_bln_cancelada" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="149" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="107" width="224" height="1"/>
+			</line>
+			<line>
+				<reportElement x="0" y="127" width="552" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="107" width="121" height="14"/>
+				<textElement/>
+				<text><![CDATA[Natureza da Operação]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="128" width="120" height="14"/>
+				<textElement/>
+				<text><![CDATA[Inscrição Estadual]]></text>
+			</staticText>
+			<line>
+				<reportElement x="224" y="2" width="1" height="147"/>
+			</line>
+			<line>
+				<reportElement x="0" y="1" width="1" height="147"/>
+			</line>
+			<line>
+				<reportElement x="555" y="2" width="1" height="145"/>
+			</line>
+			<line>
+				<reportElement x="331" y="55" width="224" height="1"/>
+			</line>
+			<line>
+				<reportElement x="331" y="79" width="224" height="1"/>
+			</line>
+			<line>
+				<reportElement x="332" y="103" width="224" height="1"/>
+			</line>
+			<line>
+				<reportElement x="2" y="1" width="553" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="423" y="129" width="121" height="14"/>
+				<textElement/>
+				<text><![CDATA[CNPJ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="332" y="82" width="221" height="14"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Consulta de autenticidade no portal nacinal da NFE-e]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="92" width="221" height="14"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[www.nfe.fazenda.gov.br/portal ou no site da Sefaz Autorizadora]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="332" y="103" width="198" height="14"/>
+				<textElement/>
+				<text><![CDATA[Protocolo de Autorização de Uso]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="225" y="128" width="191" height="14"/>
+				<textElement/>
+				<text><![CDATA[Inscrição Estadual  do Subst. Tributário]]></text>
+			</staticText>
+			<line>
+				<reportElement x="332" y="2" width="1" height="126"/>
+			</line>
+			<line>
+				<reportElement x="420" y="129" width="1" height="19"/>
+			</line>
+			<staticText>
+				<reportElement x="258" y="5" width="40" height="14"/>
+				<textElement/>
+				<text><![CDATA[DANFE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="19" width="87" height="15"/>
+				<textElement/>
+				<text><![CDATA[Documento Aux]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="239" y="32" width="73" height="15"/>
+				<textElement/>
+				<text><![CDATA[NF Eletronica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="47" width="26" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[N:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="60" width="73" height="15"/>
+				<textElement/>
+				<text><![CDATA[Série:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="73" width="62" height="15"/>
+				<textElement/>
+				<text><![CDATA[1- Entrada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="227" y="84" width="61" height="15"/>
+				<textElement/>
+				<text><![CDATA[2- Saída]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="288" y="75" width="38" height="20"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="227" y="105" width="31" height="15"/>
+				<textElement/>
+				<text><![CDATA[Folha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="332" y="55" width="198" height="14"/>
+				<textElement/>
+				<text><![CDATA[Chave de Acesso:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="147" width="555" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="333" y="67" width="220" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{not_tx_identificador}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="80" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="15" width="554" height="65"/>
+			</rectangle>
+			<line>
+				<reportElement x="2" y="38" width="552" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="15" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Nome/Razão Social]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="39" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Endereço]]></text>
+			</staticText>
+			<line>
+				<reportElement x="3" y="60" width="552" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="3" y="59" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Município]]></text>
+			</staticText>
+			<line>
+				<reportElement x="458" y="15" width="1" height="64"/>
+			</line>
+			<staticText>
+				<reportElement x="458" y="15" width="82" height="20"/>
+				<textElement/>
+				<text><![CDATA[Data Emissão]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="459" y="36" width="97" height="20"/>
+				<textElement/>
+				<text><![CDATA[Data Saída/Entrada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="458" y="59" width="82" height="20"/>
+				<textElement/>
+				<text><![CDATA[Hora Saída]]></text>
+			</staticText>
+			<line>
+				<reportElement x="367" y="15" width="1" height="65"/>
+			</line>
+			<line>
+				<reportElement x="273" y="39" width="1" height="37"/>
+			</line>
+			<line>
+				<reportElement x="168" y="63" width="1" height="15"/>
+			</line>
+			<staticText>
+				<reportElement x="366" y="15" width="82" height="20"/>
+				<textElement/>
+				<text><![CDATA[CNPJ/CPF]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="58" width="100" height="19"/>
+				<textElement/>
+				<text><![CDATA[Inscrição Estadual]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="274" y="60" width="24" height="15"/>
+				<textElement/>
+				<text><![CDATA[UF]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="38" width="36" height="18"/>
+				<textElement/>
+				<text><![CDATA[CEP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="272" y="37" width="72" height="20"/>
+				<textElement/>
+				<text><![CDATA[Bairro/Distrito]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="60" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Fone/Faz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="1" width="120" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Destinatário/Remetente]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

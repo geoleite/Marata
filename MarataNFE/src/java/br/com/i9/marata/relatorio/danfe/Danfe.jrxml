@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="cnpj_empresa" class="java.lang.String">
+		<fieldDescription><![CDATA[cnpj_empresa]]></fieldDescription>
+	</field>
+	<field name="cod_empresa" class="java.lang.String">
+		<fieldDescription><![CDATA[cod_empresa]]></fieldDescription>
+	</field>
+	<field name="den_empresa" class="java.lang.String">
+		<fieldDescription><![CDATA[den_empresa]]></fieldDescription>
+	</field>
+	<field name="id_ent" class="java.lang.String">
+		<fieldDescription><![CDATA[id_ent]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="133" splitType="Stretch">
+			<staticText>
+				<reportElement x="75" y="25" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[gghgghh]]></text>
+			</staticText>
+			<line>
+				<reportElement x="13" y="45" width="514" height="1"/>
+			</line>
+			<rectangle>
+				<reportElement mode="Opaque" x="212" y="5" width="100" height="20" backcolor="#FFCC66"/>
+			</rectangle>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="72" splitType="Stretch">
+			<textField>
+				<reportElement x="13" y="17" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{cnpj_empresa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="17" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{cod_empresa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="141" y="17" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{den_empresa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="17" width="86" height="22"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{id_ent}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

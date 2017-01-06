@@ -1,0 +1,9 @@
+protocol=imap
+server=email.marata.com.br
+port=143
+email=teste.nfe@marata.com.br
+password=nfe2010
+excluiremail=nao
+urldb=jdbc:oracle:thin:@localhost:1521:xe
+patherro=/home/geoleite/suporte/i9ti
+pathacerto=/home/geoleite/suporte/i9ti
